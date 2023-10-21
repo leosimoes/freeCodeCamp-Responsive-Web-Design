@@ -1,4 +1,4 @@
-# freeCodeCamp - Responsive Web Design - Aprenda CSS básico criando um menu de restaurante
+# freeCodeCamp - Design responsivo para a web - Aprenda CSS básico criando um menu de restaurante
  
 ## Resultado
 ![Cafe-Menu-Image](Cafe-Menu.jpg)

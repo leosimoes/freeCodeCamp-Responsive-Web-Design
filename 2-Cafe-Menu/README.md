@@ -441,332 +441,332 @@ Cinnamon Roll 2.50
 </article>
 ```
 
-53. Você pode dar ao seu menu um pouco mais de espaço entre o conteúdo e os lados com várias propriedades padding.
-    Dê à classe menu um padding-left e um padding-right com o mesmo valor de 20px.
+53. You can give your menu a little more space between the content and sides with various padding properties.
+    Give the menu class a padding-left and a padding-right with the same value of 20px.
 ```
 .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+     width: 80%;
+     background-color: burlywood;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 20px;
+     padding-right: 20px;
 }
 ```
 
-54. Assim está bem melhor. Agora, tente adicionar o mesmo preenchimento interno de 20px ao topo e à base do menu.
+54. This is much better. Now try adding the same 20px inner padding to the top and bottom of the menu.
 ```
 .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+     width: 80%;
+     background-color: burlywood;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
 }
 ```
 
-55. Já que todos os 4 lados do menu têm o mesmo espaçamento interno, exclua as quatro propriedades
-    e use uma única propriedade padding com o valor 20px.
+55. Since all 4 sides of the menu have the same internal spacing, delete the four properties
+    and use a single padding property with the value 20px.
 ```
 .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+     width: 80%;
+     background-color: burlywood;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
 }
 ```
 
-56. A largura atual do menu sempre ocupará 80% da largura do elemento body.
-    Em uma tela muito ampla, o café e a sobremesa aparecem muito distantes de seus preços.
-    Adicione uma propriedade max-width ao menu com um valor de 500px para evitar esse distanciamento em excesso.
+56. The current width of the menu will always occupy 80% of the width of the body element.
+    On a very wide screen, coffee and dessert appear far removed from their prices.
+    Add a max-width property to the menu with a value of 500px to avoid this excessive distance.
 ```
 .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
+     width: 80%;
+     background-color: burlywood;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
+     max-width: 500px;
 }
 ```
 
-57. Você pode alterar o estilo de fonte com font-family, para que o texto fique diferente do estilo de fonte padrão do seu navegador.
-    Cada navegador tem algumas fontes comuns já disponíveis.
-    Mude todo o texto em body, adicionando a propriedade font-family com o valor sans-serif.
-    Esta é um fonte bastante comum que é bem legível.
+57. You can change the font style with font-family, so the text will look different from your browser's default font style.
+    Every browser has some common fonts already available.
+    Change all text in the body by adding the font-family property with the sans-serif value.
+    This is a fairly common font that is very readable.
 ```
 body {
-    background-color: burlywood;
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
+     background-color: burlywood;
+     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+     font-family: sans-serif;
 }
 ```
 
-58. É um pouco chato ler todo um texto com a mesma font-family.
-    Você ainda pode ter a maioria do texto em sans-serif e fazer apenas os elementos h1 e h2 terem um seletor diferente.
-    Estilize os elementos h1 e h2 para que apenas o texto desses elementos use a fonte Impact.
+58. It's a bit annoying to read an entire text with the same font-family.
+    You can still have most of the text in sans-serif and just have the h1 and h2 elements have a different selector.
+    Style the h1 and h2 elements so that only the text in these elements uses the Impact font.
 ```
 h1, h2 {
-    font-family: Impact;
+     font-family: Impact;
 }
 ```
 
-59. Você pode adicionar um valor de fallback para a font-family adicionando outro nome de fonte separado por uma vírgula.
-    Os fallbacks são usados em instâncias onde a fonte inicial não é encontrada ou não está disponível.
-    Adicione a fonte de fallback serif após a fonte Impact.
+59. You can add a fallback value to the font-family by adding another font name separated by a comma.
+    Fallbacks are used in instances where the initial source is not found or unavailable.
+    Add the serif fallback font after the Impact font.
 ```
 h1, h2 {
-    font-family: Impact, serif;
+     font-family: Impact, serif;
 }
 ```
 
-60. Deixe o texto Est. 2020 em itálico criando um seletor de classe established e, logo depois,
-    dê a ele a propriedade font-style com o valor italic.
+60. Leave the text Est. 2020 in italics by creating an established class selector and, soon after,
+    give it the font-style property with the value italic.
 ```
 .established {
-    font-style: italic;
+     font-style: italic;
 }
 ```
 
-61. Agora, aplique a classe established ao texto Est. 2020.
+61. Now, apply the established class to the Est. 2020 text.
     `<p class="established">Est. 2020</p>`
 
-62. A tipografia dos elementos do cabeçalho (por exemplo, h1, h2) é definida por valores padrão dos navegadores dos usuários.
-    Adicione dois novos seletores de tipo (h1 e h2).
-    Use a propriedade font-size para ambos, mas use o valor de 40px para h1 e 30px para o h2.
+62. The typography of header elements (e.g. h1, h2) is set by default values of users' browsers.
+    Add two new type selectors (h1 and h2).
+    Use the font-size property for both, but use the value 40px for h1 and 30px for h2.
 ```
 h1 {
-    font-size: 40px;
+     font-size: 40px;
 }
 
 h2 {
-    font-size: 30px;
+     font-size: 30px;
 }
 ```
 
-63. Adicione um elemento footer abaixo do elemento main, onde você pode colocar uma informação adicional sobre o conteúdo da página.
+63. Add a footer element below the main element, where you can place additional information about the page content.
     `<footer></footer>`
 
-64. Dentro do footer, adicione um elemento p.
-    Então, aninhe um elemento de âncora (a) no p que encaminhe para https://www.freecodecamp.org e tenha o texto Visit our website.
+64. Inside the footer, add a p element.
+    Then, nest an anchor element (a) in p that links to https://www.freecodecamp.org and has the text Visit our website.
     `<p> <a href="https://www.freecodecamp.org">Visit our website</a></p>`
 
-65. Adicione um segundo elemento p abaixo do link e dê a ele o texto 123 Free Code Camp Drive.
+65. Add a second p element below the link and give it the text 123 Free Code Camp Drive.
     `<p>123 Free Code Camp Drive</p>`
 
-66. Você pode usar um elemento hr para exibir um divisor entre seções de conteúdo diferente.
-    Primeiro, adicione um elemento hr entre o elemento p com a classe established e o primeiro elemento section.
-    Observe que os elementos hr fecham em si mesmos.
+66. You can use an hr element to display a divider between sections of different content.
+    First, add an hr element between the p element with the established class and the first section element.
+    Note that the hr elements close on themselves.
     `<hr/>`
 
-67. As propriedades padrão de um elemento hr farão com que ele apareça como uma linha cinza claro fina.
-    Você pode alterar a altura da linha especificando um valor para a propriedade height.
-    Altere a altura do elemento hr para que seja 3px.
+67. The default properties of an hr element will make it appear as a thin light gray line.
+    You can change the row height by specifying a value for the height property.
+    Change the height of the hr element so that it is 3px.
 ```
 hr {
-    height: 3px;
+     height: 3px;
 }
 ```
 
-68. Altere a cor de fundo do elemento hr para brown de modo que combine com a cor dos grãos de café.
+68. Change the background color of the hr element to brown so that it matches the color of the coffee beans.
 ```
 hr {
-    height: 3px;
-    background-color: brown;
+     height: 3px;
+     background-color: brown;
 }
 ```
 
-69. Observe a cor cinza ao longo das arestas da linha.
-    Essas arestas são conhecidas como bordas.
-    Cada lado de um elemento pode ter uma cor diferente ou eles podem ser todos iguais.
-    Faça com que todas as bordas do elemento hr sejam da mesma cor que o fundo dele usando a propriedade border-color.
+69. Notice the gray color along the edges of the line.
+    These edges are known as edges.
+    Each side of an element can have a different color or they can all be the same.
+    Make all the borders of the hr element the same color as its background using the border-color property.
 ```
 hr {
-    height: 3px;
-    background-color: brown;
-    border-color: brown;
+     height: 3px;
+     background-color: brown;
+     border-color: brown;
 }
 ```
 
-70. Percebeu como a espessura da linha parece maior?
-    O valor padrão da propriedade border-width é de 1px para todas as arestas dos elementos hr.
-    Ao alterar a borda para a mesma cor do fundo, a altura total da linha é de 5px (3px mais a largura superior e inferior da borda, de 1px).
-    Altere a propriedade height do elemento hr para que seja de 2px, então a altura total dela se tornará 4px.
+70. Notice how the thickness of the line seems thicker?
+    The default value of the border-width property is 1px for all edges of hr elements.
+    When changing the border to the same color as the background, the total line height is 5px (3px plus the top and bottom border width of 1px).
+    Change the height property of the hr element to be 2px, so its total height will become 4px.
 ```
 hr {
-    height: 2px;
-    background-color: brown;
-    border-color: brown;
+     height: 2px;
+     background-color: brown;
+     border-color: brown;
 }
 ```
 
-71. Adicione outro elemento hr entre o primeiro elemento main e o elemento footer. `<hr/>`
+71. Add another hr element between the first main element and the footer element. `<hr/>`
 
-72. Para criar um pouco mais de espaço ao redor do menu, adicione 20px de espaço interno ao elemento body usando a propriedade padding.
+72. To create a little more space around the menu, add 20px of space inside the body element using the padding property.
 ```
 body {
-    background-color: burlywood;
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-    font-family: sans-serif;
-    padding: 20px;
+     background-color: burlywood;
+     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+     font-family: sans-serif;
+     padding: 20px;
 }
 ```
 
-73. Se nos concentrarmos nos itens do menu e nos preços, há um espaço relativamente grande entre cada linha.
-    Com o foco em todos os elementos p dentro de elementos com a class definida como item, defina a margem superior e inferior para que seja 5px.
+73. If we focus on menu items and prices, there is a relatively large space between each line.
+    With the focus on all p elements within elements with the class set to item, set the top and bottom margin to be 5px.
 ```
 .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
+     display: inline-block;
+     margin-top: 5px;
+     margin-bottom: 5px;
 }
 ```
 
-74. Usando o mesmo seletor de estilo do passo anterior, torne maior o tamanho da fonte dos itens e preços usando um valor de 18px.
+74. Using the same style selector as in the previous step, make the font size of the items and prices larger using a value of 18px.
 ```
 .item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
+   display: inline-block;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 18px;
 }
 ```
 
-75. Alterar margin-bottom para 5px parece uma ótima ideia.
-    No entanto, agora o espaço entre o item de menu Cinnamon Roll e o segundo elemento hr não combina com o espaço
-    entre o elemento hr de cima e o título Coffee.
-    Adicione mais espaço criando uma classe chamada bottom-line, usando 25px para a propriedade margin-top.
+75. Changing margin-bottom to 5px seems like a great idea.
+    However, now the space between the Cinnamon Roll menu item and the second hr element does not match the space
+    between the top hr element and the title Coffee.
+    Add more space by creating a class called bottom-line, using 25px for the margin-top property.
 ```
-.bottom-line{
-    margin-top: 25px;
+.bottom line{
+     margin-top: 25px;
 }
 ```
 
-76. Agora, adicione a classe bottom-line ao segundo elemento hr para que o estilo seja aplicado.
+76. Now add the bottom-line class to the second hr element so that the style is applied.
     `<hr class="bottom-line" />`
 
-77. Em seguida, você estilizará o elemento footer.
-    Para manter o CSS organizado, adicione um comentário ao final de styles.css com o texto FOOTER.
+77. Next, you will style the footer element.
+    To keep your CSS organized, add a comment to the end of styles.css with the text FOOTER.
     `/* FOOTER */ `
 
-78. Descendo para o elemento footer, faça com que todo o texto tenha um valor de 14px para o tamanho da fonte.
+78. Moving down to the footer element, make all text a value of 14px for the font size.
 ```
 footer {
-    font-size: 14px;
+     font-size: 14px;
 }
 ```
 
-79. A cor padrão de um link que ainda não foi clicado é tipicamente azul.
-    A cor padrão de um link que já foi visitado a partir de uma página é tipicamente roxa.
-    Para tornar os links do footer da mesma cor, independentemente de um link ter sido visitado,
-    use um seletor de tipo para o elemento de âncora (a) e use o valor black para a propriedade color.
+79. The default color of a link that has not yet been clicked is typically blue.
+    The default color of a previously visited link from a page is typically purple.
+    To make footer links the same color regardless of whether a link has been visited,
+    use a type selector for the anchor element (a) and use the black value for the color property.
 ```
-a {
-    color: black;
+The {
+     color: black;
 }
 ```
 
-80. Você muda as propriedades de um link quando o link tenha sido visitado de fato usando um pseudosseletor,
-    que tem essa aparência: a:visited { propertyName: propertyValue; }.
-    Mude a cor do rodapé Visit our website para grey quando um usuário tiver visitado o link.
+80. You change the properties of a link when the link has actually been visited using a pseudo selector,
+    which looks like this: a:visited { propertyName: propertyValue; }.
+    Change the Visit our website footer color to gray when a user has visited the link.
 
 ```
 a:visited {
-    color: gray;
+     color: gray;
 }
 ```
 
-81. Você muda as propriedades de um link quando o mouse passa sobre ele usando um pseudosseletor,
-    que tem essa aparência: a:hover { propertyName: propertyValue; }.
-    Mude a cor do rodapé Visit our website para brown quando um usuário passar o mouse sobre ele.
+81. You change the properties of a link when the mouse hovers over it using a pseudo selector,
+    which looks like this: a:hover { propertyName: propertyValue; }.
+    Change the Visit our website footer color to brown when a user hovers over it.
 ```
 a:hover {
-    color: brown;
+     color: brown;
 }
 ```
 
-82. Você muda as propriedades de um link quando o link tiver sido clicado de fato usando um pseudosseletor,
-    que tem essa aparência: a:active { propertyName: propertyValue; }.
-    Mude a cor do rodapé Visit our website para white quando um usuário clicar no link
+82. You change the properties of a link when the link has actually been clicked using a pseudo selector,
+    which looks like this: a:active { propertyName: propertyValue; }.
+    Change the Visit our website footer color to white when a user clicks the link
 ```
 a:active {
-    color: white;
+     color: white;
 }
 ```
 
-83. Para continuar com o mesmo tema da cor que você já está usando (preto e marrom),
-    altere a cor para quando o link for visitado para black e use brown para quando o link for clicado de fato.
+83. To continue with the same color theme you are already using (black and brown),
+    change the color for when the link is visited to black and use brown for when the link is actually clicked.
 ```
 a:visited {
-  color: black;
+   color: black;
 }
 
 a:hover {
-  color: brown;
+   color: brown;
 }
 
 a:active {
-  color: brown;
+   color: brown;
 }
 ```
 
-84. O texto do menu CAMPER CAFE tem um espaço diferente do topo do que o espaço do endereço na parte inferior do menu.
-    Isso se deve ao navegador ter uma margem superior padrão para o elemento h1.
-    Altere a margem superior do elemento h1 para 0 para remover toda a margem superior.
+84. The CAMPER CAFE menu text has a different space at the top than the address space at the bottom of the menu.
+    This is due to the browser having a default top margin for the h1 element.
+    Change the top margin of the h1 element to 0 to remove the entire top margin.
 ```
 h1 {
-  font-size: 40px;
-  margin-top: 0;
+   font-size: 40px;
+   margin-top: 0;
 }
 ```
 
-85. Para remover um pouco do espaço vertical entre o elemento h1 e o texto Est. 2020, altere a margem inferior de h1 para 15px.
+85. To remove some of the vertical space between the h1 element and the 2020 Est text, change the bottom margin of h1 to 15px.
 ```
 h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
+     font-size: 40px;
+     margin-top: 0;
+     margin-bottom: 15px;
 }
 ```
 
-86. Agora o espaçamento superior parece bom.
-    O espaço abaixo do endereço na parte inferior do menu é um pouco maior do que o espaço no topo do menu e no elemento h1.
-    Para diminuir o espaço de margem padrão abaixo do elemento p do endereço, crie um seletor de classe chamado address
-    e use o valor 5px para a propriedade margin-bottom.
+86. Now the top spacing looks good.
+    The space below the address at the bottom of the menu is slightly larger than the space at the top of the menu and in the h1 element.
+    To decrease the default margin space below the p element of the address, create a class selector called address
+    and use the value 5px for the margin-bottom property.
 
 ```
 .address {
-    margin-bottom: 5px;
+     margin-bottom: 5px;
 }
 ```
 
-87. Agora, aplique a classe address ao elemento p que contém o endereço 123 Free Code Camp Drive.
+87. Now apply the address class to the p element that contains the address 123 Free Code Camp Drive.
     `<p class="address">123 Free Code Camp Drive</p>`
 
-88. O menu está com uma boa aparência, mas, excetuando a imagem de fundo dos grãos de café, ele é basicamente feito de texto.
-    Sob o título Coffee, adicione uma imagem usando o url https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg.
-    Dê à imagem um valor alt de coffee icon.
+88. The menu looks good, but other than the background image of coffee beans, it's mostly text.
+    Under the heading Coffee, add an image using the url https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg.
+    Give the image an alt value of coffee icon.
     `<img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>`
 
-89. A imagem adicionada não está centralizada horizontalmente como o título Coffee acima dela.
-    Elementos img são similares aos elementos em linha (inline).
-    Para fazer com que a imagem se comporte como elementos de título (que são de nível de bloco),
-    crie um seletor de tipo img, use o valor block para a propriedade display e use os valores margin-left e margin-right
-    aplicáveis para centralizá-la horizontalmente.
+89. The added image is not horizontally centered like the Coffee title above it.
+    img elements are similar to inline elements.
+    To make the image behave like title elements (which are block level),
+    create an img type selector, use the block value for the display property and use the margin-left and margin-right values
+    applicable to center it horizontally.
 ```
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
 }
 ```
 
-90. Adicione uma última imagem sob o título Desserts usando o url https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg.
-    Dê à imagem um valor alt de pie icon.
+90. Add one last image under the Desserts heading using the url https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg.
+    Give the image an alt value of pie icon.
     `<img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" />`
 
 91. It would be nice if the vertical space between h2 elements and their associated icons was smaller.
