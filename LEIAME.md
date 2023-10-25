@@ -3,9 +3,11 @@
 
 
 ## Projetos
+    1 - Cat Photo App (Aprenda HTML criando um aplicativo de fotos de gatos)
     2 - Cafe Menu (Aprenda CSS básico criando um menu de restaurante)
     4 - Registration Form (Aprenda formulários em HTML criando um formulário de registro)
 
+
 ## Referências
 https://www.freecodecamp.org/portuguese/learn/2022/responsive-web-design
-, acessado em 15/10/2023.
+, acessado em 25/10/2023.
