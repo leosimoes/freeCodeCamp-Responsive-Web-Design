@@ -7,6 +7,7 @@
     2 - Cafe Menu (Aprenda CSS básico criando um menu de restaurante)
     4 - Registration Form (Aprenda formulários em HTML criando um formulário de registro)
     5 - Rothko Painting (Aprenda o box model do CSS criando uma pintura de Rothko)
+    6 - Photo Gallery (Aprenda CSS Flexbox criando uma galeria de fotos)
 
 
 ## Referências

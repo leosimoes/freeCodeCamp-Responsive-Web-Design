@@ -7,6 +7,7 @@
     2 - Cafe Menu (Learn Basic CSS by Building a Cafe Menu)
     4 - Registration Form (Learn HTML Forms by Creating a Registration Form)
     5 - Rothko Painting (Learn the CSS Box Model by Building a Rothko Painting)
+    6 - Photo Gallery (Learn CSS Flexbox by Building a Photo Gallery)
 
 
 ## References
