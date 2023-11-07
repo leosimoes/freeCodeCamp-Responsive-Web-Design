@@ -8,6 +8,7 @@
     4 - Registration Form (Learn HTML Forms by Creating a Registration Form)
     5 - Rothko Painting (Learn the CSS Box Model by Building a Rothko Painting)
     6 - Photo Gallery (Learn CSS Flexbox by Building a Photo Gallery)
+    11 - Piano (Learn Responsive Web Design by Building a Piano)
 
 
 ## References

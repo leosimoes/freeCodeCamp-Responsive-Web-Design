@@ -8,6 +8,7 @@
     4 - Registration Form (Aprenda formulários em HTML criando um formulário de registro)
     5 - Rothko Painting (Aprenda o box model do CSS criando uma pintura de Rothko)
     6 - Photo Gallery (Aprenda CSS Flexbox criando uma galeria de fotos)
+    11- Piano (Aprenda design responsivo para a web criando um piano)
 
 
 ## Referências
