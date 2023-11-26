@@ -9,8 +9,8 @@
     5 - Rothko Painting (Learn the CSS Box Model by Building a Rothko Painting)
     6 - Photo Gallery (Learn CSS Flexbox by Building a Photo Gallery)
     11 - Piano (Learn Responsive Web Design by Building a Piano)
-
+    14 - Ferris Wheel (Learn CSS Animation by Building a Ferris Wheel)
 
 ## References
 https://www.freecodecamp.org/learn/2022/responsive-web-design/
-, accessed on 11/05/2023.
+, accessed on 11/26/2023.

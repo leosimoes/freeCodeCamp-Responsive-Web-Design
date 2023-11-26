@@ -9,8 +9,9 @@
     5 - Rothko Painting (Aprenda o box model do CSS criando uma pintura de Rothko)
     6 - Photo Gallery (Aprenda CSS Flexbox criando uma galeria de fotos)
     11- Piano (Aprenda design responsivo para a web criando um piano)
+    14 - Ferris Wheel (Aprenda animação em CSS construindo uma roda gigante)
 
 
 ## Referências
 https://www.freecodecamp.org/portuguese/learn/2022/responsive-web-design
-, acessado em 05/11/2023.
+, acessado em 26/11/2023.
